@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		14167DD5217C66670077D063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167DD4217C66670077D063 /* AppDelegate.m */; };
-		14167DD8217C66670077D063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167DD7217C66670077D063 /* ViewController.m */; };
 		14167DDB217C66670077D063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14167DD9217C66670077D063 /* Main.storyboard */; };
 		14167DDE217C66670077D063 /* sampleMvc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14167DDC217C66670077D063 /* sampleMvc.xcdatamodeld */; };
 		14167DE0217C66670077D063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14167DDF217C66670077D063 /* Assets.xcassets */; };
 		14167DE3217C66670077D063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14167DE1217C66670077D063 /* LaunchScreen.storyboard */; };
 		14167DE6217C66670077D063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167DE5217C66670077D063 /* main.m */; };
 		14167DF0217C66670077D063 /* sampleMvcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167DEF217C66670077D063 /* sampleMvcTests.m */; };
+		14167DFF217C66E00077D063 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167DFE217C66E00077D063 /* BaseModel.m */; };
+		14167E02217C66EF0077D063 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E01217C66EF0077D063 /* BaseView.m */; };
+		14167E05217C66FE0077D063 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E04217C66FE0077D063 /* BaseViewController.m */; };
+		14167E08217C67230077D063 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E07217C67230077D063 /* FirstViewController.m */; };
+		14167E0B217C672E0077D063 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E0A217C672E0077D063 /* SecondViewController.m */; };
+		14167E0E217C67430077D063 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E0D217C67430077D063 /* FirstView.m */; };
+		14167E11217C67570077D063 /* secondView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E10217C67570077D063 /* secondView.m */; };
+		14F430BB217C9C5100ED5C33 /* AuthorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F430BA217C9C5100ED5C33 /* AuthorTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +38,6 @@
 		14167DD0217C66670077D063 /* sampleMvc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleMvc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14167DD3217C66670077D063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14167DD4217C66670077D063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14167DD6217C66670077D063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14167DD7217C66670077D063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14167DDA217C66670077D063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14167DDD217C66670077D063 /* sampleMvc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sampleMvc.xcdatamodel; sourceTree = "<group>"; };
 		14167DDF217C66670077D063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +47,22 @@
 		14167DEB217C66670077D063 /* sampleMvcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleMvcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14167DEF217C66670077D063 /* sampleMvcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleMvcTests.m; sourceTree = "<group>"; };
 		14167DF1217C66670077D063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14167DFD217C66E00077D063 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		14167DFE217C66E00077D063 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		14167E00217C66EF0077D063 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		14167E01217C66EF0077D063 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		14167E03217C66FE0077D063 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		14167E04217C66FE0077D063 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		14167E06217C67230077D063 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		14167E07217C67230077D063 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		14167E09217C672E0077D063 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		14167E0A217C672E0077D063 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		14167E0C217C67430077D063 /* FirstView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		14167E0D217C67430077D063 /* FirstView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		14167E0F217C67570077D063 /* secondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondView.h; sourceTree = "<group>"; };
+		14167E10217C67570077D063 /* secondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondView.m; sourceTree = "<group>"; };
+		14F430B9217C9C5100ED5C33 /* AuthorTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorTableViewCell.h; sourceTree = "<group>"; };
+		14F430BA217C9C5100ED5C33 /* AuthorTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +104,11 @@
 		14167DD2217C66670077D063 /* sampleMvc */ = {
 			isa = PBXGroup;
 			children = (
+				14167DFC217C66BE0077D063 /* Model */,
+				14167DFB217C66BA0077D063 /* View */,
+				14167DFA217C66B70077D063 /* Controller */,
 				14167DD3217C66670077D063 /* AppDelegate.h */,
 				14167DD4217C66670077D063 /* AppDelegate.m */,
-				14167DD6217C66670077D063 /* ViewController.h */,
-				14167DD7217C66670077D063 /* ViewController.m */,
 				14167DD9217C66670077D063 /* Main.storyboard */,
 				14167DDF217C66670077D063 /* Assets.xcassets */,
 				14167DE1217C66670077D063 /* LaunchScreen.storyboard */,
@@ -104,6 +126,43 @@
 				14167DF1217C66670077D063 /* Info.plist */,
 			);
 			path = sampleMvcTests;
+			sourceTree = "<group>";
+		};
+		14167DFA217C66B70077D063 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14167E03217C66FE0077D063 /* BaseViewController.h */,
+				14167E04217C66FE0077D063 /* BaseViewController.m */,
+				14167E06217C67230077D063 /* FirstViewController.h */,
+				14167E07217C67230077D063 /* FirstViewController.m */,
+				14167E09217C672E0077D063 /* SecondViewController.h */,
+				14167E0A217C672E0077D063 /* SecondViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14167DFB217C66BA0077D063 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14167E00217C66EF0077D063 /* BaseView.h */,
+				14167E01217C66EF0077D063 /* BaseView.m */,
+				14167E0C217C67430077D063 /* FirstView.h */,
+				14167E0D217C67430077D063 /* FirstView.m */,
+				14167E0F217C67570077D063 /* secondView.h */,
+				14167E10217C67570077D063 /* secondView.m */,
+				14F430B9217C9C5100ED5C33 /* AuthorTableViewCell.h */,
+				14F430BA217C9C5100ED5C33 /* AuthorTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14167DFC217C66BE0077D063 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14167DFD217C66E00077D063 /* BaseModel.h */,
+				14167DFE217C66E00077D063 /* BaseModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,10 +267,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14167DD8217C66670077D063 /* ViewController.m in Sources */,
 				14167DDE217C66670077D063 /* sampleMvc.xcdatamodeld in Sources */,
 				14167DE6217C66670077D063 /* main.m in Sources */,
+				14167E08217C67230077D063 /* FirstViewController.m in Sources */,
+				14167DFF217C66E00077D063 /* BaseModel.m in Sources */,
+				14167E0B217C672E0077D063 /* SecondViewController.m in Sources */,
+				14167E0E217C67430077D063 /* FirstView.m in Sources */,
+				14F430BB217C9C5100ED5C33 /* AuthorTableViewCell.m in Sources */,
 				14167DD5217C66670077D063 /* AppDelegate.m in Sources */,
+				14167E05217C66FE0077D063 /* BaseViewController.m in Sources */,
+				14167E11217C67570077D063 /* secondView.m in Sources */,
+				14167E02217C66EF0077D063 /* BaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
