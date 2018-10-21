@@ -11,5 +11,7 @@
 @interface AuthorTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *authorNameLb;
 @property (weak, nonatomic) IBOutlet UILabel *bookNameLb;
+@property (weak, nonatomic) IBOutlet UIButton *EditBt;
+@property (weak, nonatomic) IBOutlet UIButton *DeleteBt;
 
 @end

@@ -82,15 +82,39 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cys-gr-9OV">
+                                                            <rect key="frame" x="280" y="0.0" width="80" height="30"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="jD5-iP-wAT"/>
+                                                                <constraint firstAttribute="width" constant="80" id="je0-lu-9Tl"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Edit"/>
+                                                        </button>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UGG-r8-vlZ">
+                                                            <rect key="frame" x="280" y="36" width="80" height="30"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="30" id="IkS-4R-BDc"/>
+                                                                <constraint firstAttribute="width" constant="80" id="SnB-1O-xll"/>
+                                                            </constraints>
+                                                            <state key="normal" title="Delete"/>
+                                                        </button>
                                                     </subviews>
                                                     <constraints>
                                                         <constraint firstItem="5si-Vc-Gew" firstAttribute="leading" secondItem="r6l-Mf-msq" secondAttribute="leading" constant="15" id="HNQ-un-KuF"/>
                                                         <constraint firstItem="5si-Vc-Gew" firstAttribute="top" secondItem="r6l-Mf-msq" secondAttribute="top" constant="25" id="Ilm-Y7-kde"/>
+                                                        <constraint firstItem="UGG-r8-vlZ" firstAttribute="top" secondItem="cys-gr-9OV" secondAttribute="bottom" constant="6" id="NNA-1j-qJ6"/>
                                                         <constraint firstItem="1lx-3y-QjC" firstAttribute="top" secondItem="r6l-Mf-msq" secondAttribute="top" constant="25" id="OGW-11-IIC"/>
+                                                        <constraint firstAttribute="trailing" secondItem="cys-gr-9OV" secondAttribute="trailing" constant="15" id="UM5-rh-baS"/>
+                                                        <constraint firstItem="cys-gr-9OV" firstAttribute="top" secondItem="r6l-Mf-msq" secondAttribute="top" id="ZzO-g0-VhP"/>
                                                         <constraint firstItem="1lx-3y-QjC" firstAttribute="leading" secondItem="5si-Vc-Gew" secondAttribute="trailing" constant="17" id="dje-M0-dnZ"/>
+                                                        <constraint firstAttribute="trailing" secondItem="UGG-r8-vlZ" secondAttribute="trailing" constant="15" id="n2E-hL-TRY"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <connections>
+                                                    <outlet property="DeleteBt" destination="UGG-r8-vlZ" id="sX1-rS-9uD"/>
+                                                    <outlet property="EditBt" destination="cys-gr-9OV" id="rZd-E9-niE"/>
                                                     <outlet property="authorNameLb" destination="5si-Vc-Gew" id="lmQ-ir-ZGS"/>
                                                     <outlet property="bookNameLb" destination="1lx-3y-QjC" id="Bz3-Ns-8gP"/>
                                                 </connections>
